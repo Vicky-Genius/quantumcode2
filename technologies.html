@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumCode Solutions - Innovative Software Development</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg') !important;
+            /* background-image: url('https://via.placeholder.com/1920x1080') !important; */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .container {
+            background: rgba(51, 51, 76, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        /* Styling the navigation links to light blue */
+        .navbar-nav .nav-link {
+            color: #5bc0de !important; /* Light blue color */
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        /* Hover effect for navigation links (green on hover) */
+        .navbar-nav .nav-link:hover {
+            color: #28a745 !important; /* Green color on hover */
+        }
+
+        h1, p {
+            color: white;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+
+        .section-heading {
+            font-size: 2em;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .section-content {
+            margin-top: 15px;
+        }
+
+        .section-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Fade-in animation for navbar */
+        .navbar-nav li {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        .navbar-nav li:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        .navbar-nav li:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        .navbar-nav li:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+        .navbar-nav li:nth-child(4) {
+            animation-delay: 0.8s;
+        }
+        .navbar-nav li:nth-child(5) {
+            animation-delay: 1s;
+        }
+        .navbar-nav li:nth-child(6) {
+            animation-delay: 1.2s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container"> <!-- Center the navbar contents -->
+            <a class="navbar-brand" href="index.html"></a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="technologies.html">Technologies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+     <!-- Technologies Section -->
+    <section class="container">
+        <h1 class="section-heading">Technologies We Use</h1>
+        <p>At QuantumCode Solutions, we leverage the latest and most advanced technologies to deliver world-class solutions. Our tech stack ensures high-performance, scalability, and security, all while staying at the forefront of industry trends.</p>
+    </section>
+
+    <!-- Programming Languages Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Programming Languages</h2>
+        <p>We master a wide variety of programming languages tailored to meet the unique needs of each project:</p>
+        <ul>
+            <li><strong>Python:</strong> Ideal for AI/ML, data analysis, and backend development.</li>
+            <li><strong>JavaScript:</strong> Dominating both front-end and backend development through Node.js and React.</li>
+            <li><strong>C#:</strong> The backbone for enterprise-level applications within the .NET framework.</li>
+            <li><strong>Java:</strong> A leading language for mobile apps (Android) and large-scale enterprise systems.</li>
+            <li><strong>Swift & Kotlin:</strong> Driving cutting-edge mobile app development for iOS and Android.</li>
+        </ul>
+    </section>
+
+    <!-- Frameworks and Libraries Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Frameworks and Libraries</h2>
+        <p>We utilize the most robust frameworks to expedite development while ensuring high-quality outcomes:</p>
+        <ul>
+            <li><strong>React.js, Angular, Vue.js:</strong> Leading front-end frameworks delivering dynamic, responsive user experiences.</li>
+            <li><strong>Node.js:</strong> Enables efficient server-side scripting with real-time applications in mind.</li>
+            <li><strong>Django, Flask:</strong> Secure, scalable, and rapid development frameworks for Python.</li>
+            <li><strong>.NET, Spring Boot:</strong> Reliable frameworks for creating robust, secure, and high-performance backend services.</li>
+        </ul>
+    </section>
+
+    <!-- Cloud Platforms Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Cloud Platforms</h2>
+        <p>We partner with industry-leading cloud providers to ensure scalability and security:</p>
+        <ul>
+            <li><strong>AWS:</strong> The most comprehensive cloud platform providing compute power, storage, and robust AI tools.</li>
+            <li><strong>Microsoft Azure:</strong> The ideal choice for enterprises, offering a powerful cloud infrastructure that integrates with Microsoft services.</li>
+            <li><strong>Google Cloud Platform (GCP):</strong> The go-to choice for data-heavy applications, including machine learning and AI.</li>
+        </ul>
+    </section>
+
+    <!-- Database Technologies Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Database Technologies</h2>
+        <p>Reliable databases are crucial to any application. We choose the best-suited database for the specific needs of your project:</p>
+        <ul>
+            <li><strong>MySQL & PostgreSQL:</strong> The leading relational databases, known for their speed and reliability.</li>
+            <li><strong>MongoDB:</strong> A flexible and scalable NoSQL database suited for unstructured data.</li>
+            <li><strong>Oracle:</strong> A robust choice for large-scale enterprise solutions with advanced security features.</li>
+            <li><strong>Firebase:</strong> Real-time NoSQL databases for mobile and web apps, enabling real-time syncing.</li>
+        </ul>
+    </section>
+
+    <!-- DevOps Tools Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">DevOps Tools</h2>
+        <p>We streamline development through our DevOps stack to improve efficiency and accelerate delivery:</p>
+        <ul>
+            <li><strong>Docker:</strong> Containerization platform for consistent and scalable application deployment.</li>
+            <li><strong>Kubernetes:</strong> Automates the deployment, scaling, and management of containerized applications.</li>
+            <li><strong>Jenkins, Git, CI/CD Pipelines:</strong> Streamlined integration and delivery pipelines to ensure rapid iteration and high-quality code.</li>
+        </ul>
+    </section>
+
+    <!-- AI/ML Frameworks Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">AI/ML Frameworks</h2>
+        <p>We empower our solutions with AI and machine learning, driving innovation across industries:</p>
+        <ul>
+            <li><strong>TensorFlow & PyTorch:</strong> Leading frameworks for developing neural networks and AI solutions.</li>
+            <li><strong>Keras:</strong> High-level API built on top of TensorFlow for rapid prototyping and experimentation.</li>
+            <li><strong>Scikit-learn:</strong> The go-to library for simple yet powerful machine learning tools and algorithms.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-4">
+        <p>&copy; 2024 QuantumCode Solutions. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js for Navbar functionality -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

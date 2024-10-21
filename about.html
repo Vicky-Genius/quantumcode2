@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - QuantumCode Solutions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg') !important;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .container {
+            background: rgba(51, 51, 76, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+            opacity: 0;
+            animation: fadeInContainer 2s forwards;
+            animation-delay: 0.5s;
+        }
+
+        h1, h2, p {
+            color: white;
+            opacity: 0;
+            animation: fadeInText 2s forwards;
+            animation-delay: 0.7s;
+        }
+
+        .section-heading {
+            font-size: 2em;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .section-content {
+            margin-top: 15px;
+        }
+
+        .section-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Animation Keyframes */
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInContainer {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Styling the navigation links */
+        .navbar-nav .nav-link {
+            color: #5bc0de !important;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Hover effect for navigation links */
+        .navbar-nav .nav-link:hover {
+            color: #28a745 !important;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container"> <!-- Center the navbar contents -->
+            <a class="navbar-brand" href="index.html"></a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="technologies.html">Technologies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Us Section -->
+    <section class="container">
+        <h1 class="section-heading">About QuantumCode Solutions</h1>
+        <p>QuantumCode Solutions is a new startup, but we are not new to delivering top-tier software solutions. For many years, we provided software development, cloud solutions, and AI-driven innovations as a group of freelance developers. Our team worked with clients across industries, delivering successful projects that have scaled businesses globally.</p>
+        
+        <p>As a result of our successful collaborations and the increasing demand for our services, we decided to formalize our operations and start QuantumCode Solutions. With a well-structured team of experts now in place, we are committed to offering even more comprehensive and innovative services through our dedicated platform.</p>
+        
+        <p>At QuantumCode Solutions, our goal is to empower businesses to navigate the fast-changing digital landscape by providing solutions that drive growth, efficiency, and innovation. We take pride in turning ideas into impactful digital products while maintaining the highest standards of quality and scalability.</p>
+        
+        <p>Stay tuned to our site for updates on new services and solutions as we continue to expand our offerings. Our startup is just the beginning of a journey where technology meets excellence, and we look forward to helping businesses achieve their goals in a competitive digital world.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-4">
+        <p>&copy; 2024 QuantumCode Solutions. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js for Navbar functionality -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

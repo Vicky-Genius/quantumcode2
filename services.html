@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumCode Solutions - Our Services</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg') !important;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .container {
+            background: rgba(51, 51, 76, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+            opacity: 0;
+            animation: fadeInContainer 2s forwards;
+            animation-delay: 0.5s;
+        }
+
+        h1, h2, p {
+            color: white;
+            opacity: 0;
+            animation: fadeInText 2s forwards;
+            animation-delay: 0.7s;
+        }
+
+        .section-heading {
+            font-size: 2em;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .section-content {
+            margin-top: 15px;
+        }
+
+        .section-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Animation Keyframes */
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInContainer {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Styling the navigation links */
+        .navbar-nav .nav-link {
+            color: #5bc0de !important;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Hover effect for navigation links */
+        .navbar-nav .nav-link:hover {
+            color: #28a745 !important;
+            transform: scale(1.1);
+        }
+
+        /* Button hover effect */
+        .btn-primary {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.3); /* Increase button size by 30% */
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container"> <!-- Center the navbar contents -->
+            <a class="navbar-brand" href="index.html"></a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="technologies.html">Technologies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Heading -->
+    <section class="container">
+        <h1 class="section-heading">Our Services</h1>
+        <p>At QuantumCode Solutions, we provide a broad array of technology services to meet the growing needs of our clients, helping businesses innovate, scale, and thrive in the ever-evolving digital landscape.</p>
+    </section>
+
+    <!-- Custom Software Development Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Custom Software Development</h2>
+        <p>Our custom software development services are tailored to meet the specific needs of your business. Whether you're looking to build a complex enterprise application or a simple mobile app, our solutions are designed with scalability, security, and performance in mind. We focus on creating software that not only solves immediate challenges but also scales as your business grows.</p>
+    </section>
+
+    <!-- Mobile App Development Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Mobile App Development</h2>
+        <p>Our mobile app development team creates intuitive, user-friendly apps for both iOS and Android platforms. Leveraging the latest mobile technologies like Swift, Kotlin, and React Native, we deliver high-performance apps that enhance user engagement and drive business results. Whether you need a consumer-facing app or an internal tool, we build apps that align with your business goals.</p>
+    </section>
+
+    <!-- Cloud Solutions Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Cloud Solutions</h2>
+        <p>Cloud computing is essential for modern businesses. We offer comprehensive cloud solutions using platforms like AWS, Microsoft Azure, and Google Cloud. Our services include cloud migration, cloud architecture, and DevOps to ensure your infrastructure is scalable, flexible, and secure. Whether you need to modernize legacy systems or build cloud-native applications, we have the expertise to make it happen.</p>
+    </section>
+
+    <!-- AI and Machine Learning Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Artificial Intelligence and Machine Learning</h2>
+        <p>AI and machine learning are revolutionizing industries by automating processes, generating insights, and improving decision-making. We offer AI-driven solutions such as predictive analytics, natural language processing, and intelligent automation. Our team of experts works closely with your business to implement machine learning models that optimize operations and drive innovation.</p>
+    </section>
+
+    <!-- Blockchain Solutions Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Blockchain Solutions</h2>
+        <p>Blockchain technology is redefining trust and security in digital transactions. At QuantumCode Solutions, we provide blockchain development services for businesses looking to embrace transparency and security through decentralized applications (dApps) and smart contracts. Whether you're in finance, supply chain, or any other sector, we help you adopt blockchain to enhance trust and reduce risks.</p>
+    </section>
+
+    <!-- UI/UX Design Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">UI/UX Design</h2>
+        <p>A well-designed user interface (UI) and user experience (UX) are key to the success of any digital product. Our design team focuses on creating intuitive, visually appealing interfaces that enhance user satisfaction. From wireframes to fully interactive prototypes, we ensure that your users will enjoy seamless interaction with your product, boosting engagement and retention.</p>
+    </section>
+
+    <!-- DevOps and Continuous Integration Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">DevOps and Continuous Integration</h2>
+        <p>Our DevOps services ensure smooth collaboration between development and operations teams, leading to faster, more reliable software delivery. We implement CI/CD pipelines that automate code integration, testing, and deployment, reducing time-to-market while maintaining high-quality standards. With tools like Jenkins, Docker, and Kubernetes, we optimize your workflow for maximum efficiency.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-4">
+        <p>&copy; 2024 QuantumCode Solutions. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js for Navbar functionality -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumCode Solutions - Innovative Software Development</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg') !important;
+            /* background-image: url('https://via.placeholder.com/1920x1080') !important; */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .container {
+            background: rgba(51, 51, 76, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        /* Styling the navigation links to light blue */
+        .navbar-nav .nav-link {
+            color: #5bc0de !important; /* Light blue color */
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        /* Hover effect for navigation links (green on hover) */
+        .navbar-nav .nav-link:hover {
+            color: #28a745 !important; /* Green color on hover */
+        }
+
+        h1, p {
+            color: white;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+
+        .section-heading {
+            font-size: 2em;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .section-content {
+            margin-top: 15px;
+        }
+
+        .section-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Fade-in animation for navbar */
+        .navbar-nav li {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        .navbar-nav li:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        .navbar-nav li:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        .navbar-nav li:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+        .navbar-nav li:nth-child(4) {
+            animation-delay: 0.8s;
+        }
+        .navbar-nav li:nth-child(5) {
+            animation-delay: 1s;
+        }
+        .navbar-nav li:nth-child(6) {
+            animation-delay: 1.2s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container"> <!-- Center the navbar contents -->
+            <a class="navbar-brand" href="index.html"></a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="technologies.html">Technologies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="container">
+        <h1 class="text-center">Welcome to QuantumCode Solutions</h1>
+        <p>We are a global leader in delivering cutting-edge software solutions. Our team of experts is dedicated to developing high-quality, innovative technology that helps businesses succeed in the digital age. At QuantumCode Solutions, we aim to help enterprises scale and adapt to rapidly changing digital landscapes.</p>
+        <a href="services.html" class="btn btn-primary">Discover Our Services</a>
+    </section>
+
+    <!-- Our Mission Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Our Mission</h2>
+        <p>Our mission is to empower businesses through transformative technology solutions that enhance productivity, optimize processes, and drive innovation. We are committed to pushing the boundaries of software development to help organizations overcome their toughest challenges and achieve long-term success.</p>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">What We Offer</h2>
+        <p>At QuantumCode Solutions, we offer a wide range of software solutions tailored to your business needs. Whether you're a small startup or a large enterprise, we provide end-to-end solutions to help you achieve your digital goals. Our services include:</p>
+        <ul>
+            <li>Custom Software Development</li>
+            <li>Mobile Application Development</li>
+            <li>Cloud-Based Solutions</li>
+            <li>Artificial Intelligence and Machine Learning</li>
+            <li>Data Analytics and Business Intelligence</li>
+            <li>Blockchain Solutions</li>
+            <li>IT Consulting and Strategy</li>
+        </ul>
+        <a href="services.html" class="btn btn-primary mt-3">Learn More About Our Services</a>
+    </section>
+
+    <!-- Client Testimonials Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Client Testimonials</h2>
+        <p>"QuantumCode Solutions transformed our outdated processes with a seamless software solution. Their team was professional, responsive, and incredibly talented. We couldn't be more pleased with the results!" - <strong>John D., CEO, Tech Innovators</strong></p>
+        <p>"From mobile app development to cloud solutions, QuantumCode has been our go-to partner for all things tech. Their ability to understand our needs and deliver innovative solutions has been exceptional." - <strong>Sarah L., CTO, Retail Giants</strong></p>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Success Stories</h2>
+        <p><strong>Case Study: Streamlining E-commerce Operations</strong></p>
+        <p>We partnered with a leading e-commerce company to develop an AI-powered recommendation engine that increased their sales by 25%. By leveraging big data and machine learning algorithms, we helped them personalize the shopping experience for millions of users.</p>
+        <p><strong>Case Study: Automating Business Processes</strong></p>
+        <p>QuantumCode Solutions worked with a large manufacturing company to automate their supply chain management using custom software. The result was a 40% increase in operational efficiency and reduced errors across their entire supply chain.</p>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="container section-content">
+        <h2 class="section-heading">Why Choose Us?</h2>
+        <p>At QuantumCode Solutions, we don't just build software – we provide solutions that drive results. Our experienced developers, designers, and IT consultants are passionate about helping businesses succeed in a competitive digital world. Here’s why we stand out:</p>
+        <ul>
+            <li>Expertise in emerging technologies like AI, ML, and Blockchain</li>
+            <li>Customer-centric approach ensuring tailored solutions</li>
+            <li>Proven track record with global clients across various industries</li>
+            <li>Dedicated support and maintenance to ensure your success</li>
+            <li>Scalable and secure solutions to future-proof your business</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-4">
+        <p>&copy; 2024 QuantumCode Solutions. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js for Navbar functionality -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

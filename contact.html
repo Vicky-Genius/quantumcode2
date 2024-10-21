@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumCode Solutions - Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg') !important;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .container {
+            background: rgba(51, 51, 76, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+            opacity: 0;
+            animation: fadeInContainer 2s forwards;
+            animation-delay: 0.5s;
+        }
+
+        h1, h2, p {
+            color: white;
+            opacity: 0;
+            animation: fadeInText 2s forwards;
+            animation-delay: 0.7s;
+        }
+
+        .section-heading {
+            font-size: 2em;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .section-content {
+            margin-top: 15px;
+        }
+
+        .section-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Animation Keyframes */
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInContainer {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Styling the navigation links */
+        .navbar-nav .nav-link {
+            color: #5bc0de !important;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Hover effect for navigation links */
+        .navbar-nav .nav-link:hover {
+            color: #28a745 !important;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container"> <!-- Center the navbar contents -->
+            <a class="navbar-brand" href="index.html"></a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="technologies.html">Technologies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <section class="container">
+        <h1 class="section-heading">Contact Us</h1>
+        <p>If you have any questions or would like to discuss a project, feel free to reach out to us!</p>
+
+        <p><strong>Email:</strong> andjohnson969@gmail.com</p>
+        
+        <p><strong>Office Address:</strong> Melbourne, VIC 3000, Australia</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-4">
+        <p>&copy; 2024 QuantumCode Solutions. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js for Navbar functionality -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
